@@ -1,0 +1,40 @@
+
+
+.newsCard{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 500px;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+
+  &:hover{
+    box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.06);
+    transform: translateY(-5px);
+  }
+
+  img{
+    border-radius: 30px;
+    margin-bottom: 15px;
+  }
+
+  p{
+    font-family: Poppins;
+    font-size: 13px;
+    opacity: 0.5;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  h3{
+    font-family: Bebas;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+
+}

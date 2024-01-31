@@ -1,6 +1,9 @@
 import './App.css';
 import {useEffect} from "react";
 import axios from "axios";
+import News from './components/News'
+import RecentNews from "./components/RecentNews";
+
 
 function App() {
 
@@ -14,6 +17,8 @@ function App() {
 
     return (
         <>
+            <News></News>
+            <RecentNews></RecentNews>
         </>
     );
 }

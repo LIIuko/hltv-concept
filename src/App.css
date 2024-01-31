@@ -1,3 +1,18 @@
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+@font-face {
+    font-family: 'Bebas';
+    src: url(./assets/fonts/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url(./assets/fonts/Poppins-Medium.ttf);
 }
