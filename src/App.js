@@ -1,8 +1,9 @@
-import './App.css';
+import styles from './App.module.scss';
 import {useEffect} from "react";
 import axios from "axios";
 import Header from "./components/header/Header";
 import Navbar from "./components/navbar/Navbar";
+import Home from "./components/pages/Home";
 
 function App() {
 
@@ -17,7 +18,10 @@ function App() {
     return (
         <>
             <Header/>
-            <Navbar/>
+            <div className={styles.container}>
+                <Navbar/>
+                <Home/>
+            </div>
         </>
     );
 }
