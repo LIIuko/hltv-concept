@@ -1,19 +1,39 @@
-header{
+header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
 
-  .logo{
-    font-size: 2rem;
+  .logo {
+    position: relative;
+    h1 {
+      font-weight: bold;
+      margin-left: 20px;
+      font-size: 2rem;
+    }
+
+    :after {
+      transform: skew(-10deg);
+      position: absolute;
+      left: 0;
+      top: 6px;
+      content: '';
+      background-color: #1545c5;
+      width: 10px;
+      height: 26px;
+    }
   }
 
-  .nav__container{
+  .nav__container {
     display: flex;
   }
 
-  .button{
+  .button {
     background-color: #f1f2f6;
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
   }
+
+
 }

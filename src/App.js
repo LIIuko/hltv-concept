@@ -1,10 +1,9 @@
-import './App.css';
+import styles from './App.module.scss';
 import {useEffect} from "react";
 import axios from "axios";
-import News from './components/News'
-import RecentNews from "./components/RecentNews";
 import Header from "./components/header/Header";
 import Navbar from "./components/navbar/Navbar";
+import Home from "./components/pages/Home";
 
 function App() {
 
@@ -19,9 +18,10 @@ function App() {
     return (
         <>
             <Header/>
-            <Navbar/>
-            <News></News>
-            <RecentNews></RecentNews>
+            <div className={styles.container}>
+                <Navbar/>
+                <Home/>
+            </div>
         </>
     );
 }
