@@ -1,6 +1,8 @@
 import './App.css';
 import {useEffect} from "react";
 import axios from "axios";
+import Header from "./components/header/Header";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
 
@@ -14,6 +16,8 @@ function App() {
 
     return (
         <>
+            <Header/>
+            <Navbar/>
         </>
     );
 }
