@@ -3,6 +3,7 @@ import {useEffect} from "react";
 import axios from "axios";
 import News from './components/News'
 import RecentNews from "./components/RecentNews";
+import TopTeams from "./components/TopTeams";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <>
             <News></News>
             <RecentNews></RecentNews>
+            <TopTeams></TopTeams>
         </>
     );
 }
