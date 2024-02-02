@@ -3,7 +3,7 @@ import styles from './News.module.scss'
 const News = () => {
     return (
         <>
-            <div className={styles.newsCard}>
+            <div className={styles.news__card}>
                 <img
                     src="https://img-cdn.hltv.org/gallerypicture/Rov7sawOVYYJrHYwtTIZno.png?auto=compress&fm=avif&ixlib=java-2.1.0&q=75&w=1600&s=c9f995568c594448d92ed00cfd5fdd85"
                     alt="News image"

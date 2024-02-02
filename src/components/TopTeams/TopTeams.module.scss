@@ -1,84 +1,45 @@
-/*
-.topTeamsContainer{
-  display: flex;
-  flex-direction: row;
-  padding: 20px;
-  width: 500px;
-  border-radius: 20px;
-  margin-right: 20px;
-  margin-bottom: 10px;
-
-
-}
-.teamContainer{
-  display: flex;
-  flex-direction: row;
-  width: 300px;
-  margin-bottom: 10px;
-  img{
-    width: 80px;
-  }
-  .titleContainer{
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-    img{
-      width: 20px;
-    }
-    h4{
-      font-family: Poppins-Medium;
-      font-size: 18px;
-      margin-bottom: 10px;
-    }
-  }
-  p {
-    font-family: Poppins;
-    font-size: 12px;
-    opacity: 0.5;
-  }
-}
-*/
-
-.teamList {
+.team__list {
   display: flex;
   flex-direction: column;
   list-style: none;
   margin: 20px;
 
   li{
+    cursor: pointer;
     display: flex;
     align-items: center;
     margin-bottom: 10px;
   }
 }
-.teamLogo {
+.team__logo {
   width: 30px; /* задайте нужную ширину и высоту для логотипа команды */
   height: 30px;
   margin-right: 10px;
 }
-.teamInfo{
+.team__info{
   display: flex;
   flex-direction: column;
 }
-.teamInfoHeader {
+.team__info__header {
   display: flex;
   align-items: center;
 }
-.teamFlag {
+.team__flag {
   width: 13px; /* задайте нужную ширину и высоту для флага */
   height: 10px;
   border-radius: 10%;
   margin-right: 5px;
+  margin-bottom: 5px;
 }
-.teamName {
+.team__name {
   font-family: Bebas;
   font-size: 18px;
   margin-right: 5px;
 }
-.teamPoints {
+.team__points {
   font-family: Poppins;
-  font-size: 12px;
-  opacity: 0.4;
+  font-size: 9px;
+  opacity: 0.5;
 }
 
 

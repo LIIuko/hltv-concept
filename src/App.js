@@ -4,6 +4,7 @@ import axios from "axios";
 import News from './components/News'
 import RecentNews from "./components/RecentNews";
 import TopTeams from "./components/TopTeams";
+import PlayerOfTheWeek from './components/PlayerOfTheWeek'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <News></News>
             <RecentNews></RecentNews>
             <TopTeams></TopTeams>
+            <PlayerOfTheWeek></PlayerOfTheWeek>
         </>
     );
 }
