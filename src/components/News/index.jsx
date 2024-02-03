@@ -1,6 +1,7 @@
 import styles from './News.module.scss'
 
 const News = () => {
+    
     return (
         <>
             <div className={styles.news__card}>

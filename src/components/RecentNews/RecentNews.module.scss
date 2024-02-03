@@ -3,12 +3,11 @@
   flex-direction: row;
   padding: 20px;
   width: 500px;
+  color: black;
   cursor: pointer;
   border-radius: 20px;
   margin-right: 20px;
-  margin-bottom: 10px;
   transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
-
   &:hover{
     box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.06);
     transform: translateY(-5px);
@@ -16,8 +15,8 @@
 
   .image__block{
     width: 200px;
-    border-radius: 10px;
     img{
+      border-radius: 10px;
       width: 200px;
     }
   }

@@ -1,6 +1,7 @@
-import './App.css';
-import {useEffect} from "react";
+import {useEffect, useState} from "react";
 import axios from "axios";
+
+import './App.css';
 import News from './components/News'
 import RecentNews from "./components/RecentNews";
 import TopTeams from "./components/TopTeams";
@@ -9,19 +10,25 @@ import PlayerOfTheWeek from './components/PlayerOfTheWeek'
 
 function App() {
 
-    useEffect(() =>{
-         const fetchNews = async() => {
-            const data =(await axios.get('https://hltv-api.vercel.app/api/results.json')).data;
-            console.log(data);
+    const [topTeams, setTopTeams] = useState([]);
+    const [recentNews, setRecentNews] = useState([])
+
+
+    useEffect(() => {
+        const fetchInfo = async () => {
+            const recentNews = await axios.get("https://e6f4ab0cb2784e60.mokky.dev/news")
+            const topTeams = await axios.get("https://e6f4ab0cb2784e60.mokky.dev/topTeams")
+            setRecentNews(recentNews.data)
+            setTopTeams(topTeams.data)
         }
-        fetchNews();
+        fetchInfo();
     }, [])
 
     return (
         <>
             <News></News>
-            <RecentNews></RecentNews>
-            <TopTeams></TopTeams>
+            <RecentNews recentNews={recentNews}></RecentNews>
+            <TopTeams topTeams={topTeams}></TopTeams>
             <PlayerOfTheWeek></PlayerOfTheWeek>
         </>
     );
