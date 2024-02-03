@@ -1,0 +1,47 @@
+.team__list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 20px;
+
+  li{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+}
+.team__logo {
+  width: 30px; /* задайте нужную ширину и высоту для логотипа команды */
+  height: 30px;
+  margin-right: 10px;
+}
+.team__info{
+  display: flex;
+  flex-direction: column;
+}
+.team__info__header {
+  display: flex;
+  align-items: center;
+}
+.team__flag {
+  width: 13px; /* задайте нужную ширину и высоту для флага */
+  height: 10px;
+  border-radius: 10%;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.team__name {
+  font-family: Bebas;
+  font-size: 18px;
+  margin-right: 5px;
+}
+.team__points {
+  font-family: Poppins;
+  font-size: 9px;
+  opacity: 0.5;
+}
+
+
+
+
