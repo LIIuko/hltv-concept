@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './Header.module.scss';
+import Input from "../Input";
 
 const Header = () => {
     return (
@@ -8,8 +9,10 @@ const Header = () => {
                 <h1>HLTV.ORG</h1>
             </div>
             <div className={classes.nav__container}>
-                <input type="text"/>
-                <div className={classes.button}>profile</div>
+                <Input></Input>
+                <div className={classes.button}>
+                    <img src="../../assets/images/profile.svg" alt="Profile"/>
+                </div>
                 <div className={classes.button}>colocol</div>
             </div>
         </header>

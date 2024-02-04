@@ -1,0 +1,20 @@
+Index: src/components/pages/Home.jsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import React from 'react';\nimport HeaderMatches from \"../headerMatches/HeaderMatches\";\n\nconst Home = () => {\n    return (\n        <>\n            <HeaderMatches/>\n        </>\n    );\n};\n\nexport default Home;
+===================================================================
+diff --git a/src/components/pages/Home.jsx b/src/components/pages/Home.jsx
+--- a/src/components/pages/Home.jsx	
++++ b/src/components/pages/Home.jsx	
+@@ -1,9 +1,11 @@
+ import React from 'react';
+ import HeaderMatches from "../headerMatches/HeaderMatches";
++import Navbar from "../navbar/Navbar"
+ 
+ const Home = () => {
+     return (
+         <>
++            <Navbar></Navbar>
+             <HeaderMatches/>
+         </>
+     );

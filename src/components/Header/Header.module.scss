@@ -3,20 +3,21 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
+  margin-left: 20px;
 
   .logo {
     position: relative;
     h1 {
-      font-weight: bold;
+      font-family: ArchivoBlack-Regular;
       margin-left: 20px;
-      font-size: 2rem;
+      font-size: 28px;
     }
 
     :after {
       transform: skew(-10deg);
       position: absolute;
       left: 0;
-      top: 6px;
+      top: 2px;
       content: '';
       background-color: #1545c5;
       width: 10px;
@@ -34,6 +35,5 @@ header {
     height: 4rem;
     border-radius: 50%;
   }
-
 
 }

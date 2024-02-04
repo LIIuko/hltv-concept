@@ -5,15 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="396bbc06-5640-4d6b-bf2a-4ffcbd986971" name="Changes" comment="Added Top teams">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News/News.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/News/News.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/News/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RecentNews/RecentNews.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RecentNews/RecentNews.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RecentNews/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RecentNews/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TopTeams/TopTeams.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopTeams/TopTeams.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TopTeams/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopTeams/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/navbar/events.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/navbar/events.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/navbar/galleries.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/navbar/galleries.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/navbar/home.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/navbar/home.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/navbar/matches.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/navbar/matches.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/navbar/results.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/navbar/results.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/navbar/stats.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/navbar/stats.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/headerMatches/HeaderMatches.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/headerMatches/HeaderMatches.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderMatches/HeaderMatches.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/headerMatches/MatchInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderMatches/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +36,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -43,27 +56,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;slav1k&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/vyacheslavbotoev/WebstormProjects/hltv-concept/src/assets/fonts&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "slav1k",
+    "last_opened_file_path": "/Users/vyacheslavbotoev/WebstormProjects/hltv-concept/src/assets/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images" />
       <recent name="$PROJECT_DIR$/src/assets/fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/assets/fonts" />
       <recent name="$PROJECT_DIR$/src/components/News" />
     </key>

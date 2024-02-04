@@ -1,0 +1,49 @@
+.root {
+  position: relative;
+  left: -120px;
+  @media (max-width: 1250px) {
+    left: 0px;
+  }
+}
+
+.input {
+  border: 1px solid rgba(241, 242, 245, 0.1);
+  padding: 12px 20px;
+  padding-left: 20px;
+  margin-top: 10px;
+  width: 400px;
+  border-radius: 10px;
+  background-color: #f1f2f5;
+  font-size: 14px;
+  font-family: Poppins;
+
+  &:focus {
+    border: 1px solid #1345c6;
+    outline: #1345c6;
+  }
+
+  &::-webkit-input-placeholder {
+    opacity: 0.7;
+  }
+
+  @media (max-width: 1250px) {
+    width: 300px;
+  }
+  @media (max-width: 1000px) {
+    width: 200px;
+  }
+}
+
+.clearIcon {
+  width: 18px;
+  height: 18px;
+  opacity: 0.3;
+  position: absolute;
+  right: 15px;
+  top: 25px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
