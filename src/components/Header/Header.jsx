@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './Header.module.scss';
 import Input from "../Input";
+import profile from '../../assets/images/profile.svg'
 
 const Header = () => {
     return (
@@ -11,7 +12,7 @@ const Header = () => {
             <div className={classes.nav__container}>
                 <Input></Input>
                 <div className={classes.button}>
-                    <img src="../../assets/images/profile.svg" alt="Profile"/>
+                    <img src={profile} alt="Profile"/>
                 </div>
                 <div className={classes.button}>colocol</div>
             </div>
