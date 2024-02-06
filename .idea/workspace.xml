@@ -4,19 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="396bbc06-5640-4d6b-bf2a-4ffcbd986971" name="Changes" comment="Added Top teams">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_02_2024__17_03__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_02_2024__17_03__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_02_2024__23_52__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_02_2024__23_52__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024__01_44__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024__01_44__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024__17_17__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024__17_17__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024__17_17__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024__17_17__Changes_1.xml" afterDir="false" />
+    <list default="true" id="396bbc06-5640-4d6b-bf2a-4ffcbd986971" name="Changes" comment="Added Hltv service and hook useFetching">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/navbar/events.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/navbar/events.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/navbar/galleries.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/navbar/galleries.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/navbar/home.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/navbar/home.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/navbar/matches.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/navbar/matches.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/navbar/results.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/navbar/results.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/navbar/stats.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/navbar/stats.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/profile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/profile.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706695764365</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Hltv service and hook useFetching">
+      <option name="closed" value="true" />
+      <created>1707210787768</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707210787768</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +147,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init commit" />
+    <MESSAGE value="Added Hltv service and hook useFetching" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Hltv service and hook useFetching" />
   </component>
 </project>
