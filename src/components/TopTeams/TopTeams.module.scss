@@ -1,6 +1,7 @@
 .team__list {
   display: flex;
   flex-direction: column;
+  width: 300px;
   list-style: none;
   margin: 20px;
 
@@ -8,37 +9,38 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 }
 .team__logo {
-  width: 30px; /* задайте нужную ширину и высоту для логотипа команды */
-  height: 30px;
+  width: 50px; /* задайте нужную ширину и высоту для логотипа команды */
+  height: 50px;
   margin-right: 10px;
 }
 .team__info{
   display: flex;
   flex-direction: column;
+  margin-left: 15px;
 }
 .team__info__header {
   display: flex;
   align-items: center;
 }
 .team__flag {
-  width: 13px; /* задайте нужную ширину и высоту для флага */
-  height: 10px;
+  width: 25px; /* задайте нужную ширину и высоту для флага */
+  height: 18px;
   border-radius: 10%;
   margin-right: 5px;
   margin-bottom: 5px;
 }
 .team__name {
   font-family: Bebas;
-  font-size: 18px;
+  font-size: 28px;
   margin-right: 5px;
 }
 .team__points {
-  font-family: Poppins;
-  font-size: 9px;
+  font-family: Poppins-Medium;
+  font-size: 14px;
   opacity: 0.5;
 }
 

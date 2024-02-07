@@ -1,6 +1,6 @@
 .root {
   position: relative;
-  left: -120px;
+  left: -10px;
   @media (max-width: 1250px) {
     left: 0px;
   }
@@ -9,9 +9,7 @@
 .input {
   border: 1px solid rgba(241, 242, 245, 0.1);
   padding: 12px 20px;
-  padding-left: 20px;
-  margin-top: 10px;
-  width: 400px;
+  width: 500px;
   border-radius: 10px;
   background-color: #f1f2f5;
   font-size: 14px;
