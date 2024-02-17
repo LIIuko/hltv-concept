@@ -1,3 +1,5 @@
+$color: #1345c6;
+
 .root {
   position: relative;
   left: -10px;
@@ -16,8 +18,8 @@
   font-family: Poppins;
 
   &:focus {
-    border: 1px solid #1345c6;
-    outline: #1345c6;
+    border: 1px solid $color;
+    outline: $color;
   }
 
   &::-webkit-input-placeholder {
