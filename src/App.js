@@ -1,13 +1,10 @@
 import {useEffect, useState} from "react";
-import axios from "axios";
 
 import './App.css';
-import News from './components/News'
-import RecentNews from "./components/RecentNews";
-import TopTeams from "./components/TopTeams";
-import PlayerOfTheWeek from './components/PlayerOfTheWeek'
 import Home from "./pages/Home";
-import Header from "./components/Header/Header";
+
+import HltvService from "./API/HltvService";
+import {useFetching} from "./hooks/useFetch";
 
 
 function App() {
@@ -16,17 +13,26 @@ function App() {
     const [recentNews, setRecentNews] = useState([])
     const [matches, setMatches] = useState([])
 
+    const [fetchingNews, isLoadingNews, errorNews] = useFetching(async () => {
+        const response = await HltvService.getNews();
+        setRecentNews(response.data);
+    });
+
+    const [fetchingTopTeams, isLoadingTopTeams, errorTopTeams] = useFetching(async () => {
+        const response = await HltvService.getTopTeams();
+        setTopTeams(response.data);
+    });
+
+    const [fetchingMatches, isLoadingMatches, errorMatches] = useFetching(async () => {
+        const response = await HltvService.getMatches();
+        setMatches(response.data);
+    });
+
 
     useEffect(() => {
-        const fetchInfo = async () => {
-            const recentNews = await axios.get("https://e6f4ab0cb2784e60.mokky.dev/news")
-            const topTeams = await axios.get("https://e6f4ab0cb2784e60.mokky.dev/topTeams")
-            const matches = await axios.get("https://e6f4ab0cb2784e60.mokky.dev/matches")
-            setRecentNews(recentNews.data)
-            setTopTeams(topTeams.data)
-            setMatches(matches.data)
-        }
-        fetchInfo();
+        fetchingNews();
+        fetchingTopTeams();
+        fetchingMatches();
     }, [])
 
     return (
