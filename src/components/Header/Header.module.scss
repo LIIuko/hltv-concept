@@ -1,3 +1,5 @@
+$color: #1545c5;
+
 header {
   display: flex;
   justify-content: space-between;
@@ -18,7 +20,7 @@ header {
       left: 0;
       top: 2px;
       content: '';
-      background-color: #1545c5;
+      background-color: $color;
       width: 10px;
       height: 26px;
     }
@@ -46,7 +48,4 @@ header {
       }
     }
   }
-
-
-
 }
