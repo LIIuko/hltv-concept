@@ -2,11 +2,9 @@ $color: #1c1b23;
 
 .player__container{
   display: flex;
-  width: 70vh;
-  height: 35vh;
+  width: 65vh;
+  height: 37vh;
   border-radius: 25px;
-  margin-left: 10px;
-  margin-top: 2vh;
   background-color: $color;
   cursor: pointer;
   transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;

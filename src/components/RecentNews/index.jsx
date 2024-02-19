@@ -3,21 +3,10 @@ import styles from './RecentNews.module.scss'
 
 const RecentNews = (props) => {
     const recentNews = props.recentNews
-    const timeCount = (recentNews) => {
-        recentNews.forEach((news) => {
-            const startDate = new Date(news.time)
-            const currentDate = new Date();
-            const  timeDifferenceInMillis = currentDate - startDate;
-            const  hoursDifference = timeDifferenceInMillis / (1000 * 60 * 60);
-            news.time = Math.abs(Math.round(hoursDifference))
-        })
-    }
-    timeCount(recentNews)
-
     return (
         <ul>
-        {recentNews.map(({title, image, link, time}) => (
-            <li>
+        {recentNews.map(({title, image, link}) => (
+            <li key={title}>
                 <a href={link} style={{textDecoration: 'none'}}>
                     <div className={styles.recent__news}>
                         <div className={styles.image__block}>

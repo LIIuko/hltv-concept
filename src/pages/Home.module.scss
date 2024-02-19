@@ -8,9 +8,9 @@
 
 .top__block{
   display: flex;
-  margin-top: 30px;
+  margin-top: 6vh;
   flex-direction: row;
-  justify-content: center;
+  justify-content: start;
   align-items: start;
 }
 
@@ -19,9 +19,43 @@
 }
 
 .players__container{
-  h3{
-    font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+
+}
+
+.topteams__header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+  font-size: 20px;
+  font-family: Poppins-Medium;
+  opacity: 0.5;
+
+}
+.button__container{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  button{
+    font-size: 16px;
     font-family: Poppins-Medium;
-    opacity: 0.5;
+    padding: 0;
+    border: none;
+    background: none;
+    margin-right: 10px;
+  }
+  .arrow {
+    width: 15px;
+    height: 15px;
+    margin-top: 10%;
+    border-top: 2px solid #000000 !important;
+    border-right: 2px solid #000000 !important;
+    transform: rotate(45deg);
+    display: inline-block;
+    transition: 1s;
   }
 }

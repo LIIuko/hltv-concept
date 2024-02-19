@@ -23,7 +23,13 @@ const Home = ({recentNews, topTeams, matches}) => {
                         </div>
                         <div className={styles.players__container}>
                             <PlayerOfTheWeek></PlayerOfTheWeek>
-                            <h3>Top teams</h3>
+                            <div className={styles.topteams__header}>
+                                <h3>Top teams</h3>
+                                <div className={styles.button__container}>
+                                    <button>See all</button>
+                                    <div className={styles.arrow} style={{width: "10px", height: "10px"}}></div>
+                                </div>
+                            </div>
                             <TopTeams topTeams={topTeams}></TopTeams>
                         </div>
                     </div>

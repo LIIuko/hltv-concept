@@ -24,3 +24,7 @@
     font-family: 'ArchivoBlack-Regular';
     src: url(./assets/fonts/ArchivoBlack-Regular.ttf);
 }
+@font-face {
+    font-family: 'Inter-Medium';
+    src: url(./assets/fonts/Inter-Medium.ttf);
+}
