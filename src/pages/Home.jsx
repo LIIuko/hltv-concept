@@ -6,18 +6,31 @@ import RecentNews from "../components/RecentNews";
 import TopTeams from "../components/TopTeams";
 import PlayerOfTheWeek from "../components/PlayerOfTheWeek";
 import Header from "../components/Header/Header";
+import styles from './Home.module.scss'
 
 const Home = ({recentNews, topTeams, matches}) => {
     return (
-        <>
+        <div>
             <Header></Header>
-            <HeaderMatches matches={matches}/>
-            <Navbar></Navbar>
-            <News></News>
-            <RecentNews recentNews={recentNews}></RecentNews>
-            <TopTeams topTeams={topTeams}></TopTeams>
-            <PlayerOfTheWeek></PlayerOfTheWeek>
-        </>
+            <div className={styles.header__container}>
+                <Navbar></Navbar>
+                <div className={styles.content__container}>
+                    <HeaderMatches matches={matches}/>
+                    <div className={styles.top__block}>
+                        <div className={styles.news__container}>
+                            <News></News>
+                            <RecentNews recentNews={recentNews}></RecentNews>
+                        </div>
+                        <div className={styles.players__container}>
+                            <PlayerOfTheWeek></PlayerOfTheWeek>
+                            <h3>Top teams</h3>
+                            <TopTeams topTeams={topTeams}></TopTeams>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     );
 };
 

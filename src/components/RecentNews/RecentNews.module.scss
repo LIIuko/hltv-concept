@@ -1,3 +1,7 @@
+ul{
+  list-style: none;
+}
+
 .recent__news{
   display: flex;
   flex-direction: row;
@@ -12,6 +16,7 @@
     box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.06);
     transform: translateY(-5px);
   }
+
 
   .image__block{
     width: 200px;

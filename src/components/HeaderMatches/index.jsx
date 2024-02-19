@@ -3,18 +3,18 @@ import classes from "./HeaderMatches.module.scss";
 
 const HeaderMatches = (props) => {
     const matches = props.matches
-    console.log(matches)
     return (
         <div className={classes.container}>
             <ul>
                 {matches.map(({event, maps, teams}) => (
+
                     <div className={classes.item__container}>
                         <li>
                             <div className={classes.title__container}>
                                 <div className={classes.img__title}>
                                     <img
                                         src={event.logo}
-                                        alt=""/>
+                                        alt="Event"/>
                                 </div>
                                 <div className={classes.title}>
                                     {event.name}
@@ -24,7 +24,7 @@ const HeaderMatches = (props) => {
                                 <div className={classes.img__team}>
                                     <img
                                         src={teams[0].logo}
-                                        alt=""/>
+                                        alt="Team1"/>
                                 </div>
                                 <div className={classes.info}>
                                     <p>
@@ -35,7 +35,7 @@ const HeaderMatches = (props) => {
                                 <div className={classes.img__team}>
                                     <img
                                         src={teams[1].logo}
-                                        alt=""/>
+                                        alt="Team2"/>
                                 </div>
                             </div>
                         </li>
