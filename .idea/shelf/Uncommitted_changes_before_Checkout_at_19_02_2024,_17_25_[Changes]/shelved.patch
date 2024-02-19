@@ -1,0 +1,91 @@
+Index: src/components/HeaderMatches/HeaderMatches.module.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.container {\n  display: flex;\n  color: #a0a0a0;\n  ul{\n    display: flex;\n    flex-direction: row;\n    list-style-type: none;\n    li{\n      width: 100%;\n    }\n  }\n\n  .item__container {\n    display: flex;\n    flex-direction: column;\n    flex: 1 1 auto;\n    margin: 0 3.5rem;\n\n    .title__container {\n      display: flex;\n      align-items: center;\n      margin-bottom: 10px;\n      font-family: Poppins-Medium;\n      font-size: 14px;\n\n      .img__title {\n        height: 20px;\n        width: 20px;\n        margin-right: 10px;\n\n        img {\n          width: 100%;\n        }\n      }\n    }\n\n\n    .info__container {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n\n      .info {\n        display: flex;\n        flex-direction: column;\n        justify-content: start;\n        align-items: center;\n        font-family: Poppins-Medium;\n        font-size: 16px;\n        margin-left: 15px;\n        margin-right: 15px;\n        div{\n          font-size: 14px;\n        }\n      }\n\n      .img__team {\n        height: 60px;\n        width: 60px;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        background-color: #f1f2f6;\n        border-radius: 50%;\n\n        img {\n          height: 50%;\n          width: 50%;\n        }\n      }\n    }\n  }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/HeaderMatches/HeaderMatches.module.scss b/src/components/HeaderMatches/HeaderMatches.module.scss
+--- a/src/components/HeaderMatches/HeaderMatches.module.scss	
++++ b/src/components/HeaderMatches/HeaderMatches.module.scss	
+@@ -1,10 +1,12 @@
+ .container {
+   display: flex;
+   color: #a0a0a0;
++  width: 100%;
+   ul{
+     display: flex;
+     flex-direction: row;
+     list-style-type: none;
++    width: 100%;
+     li{
+       width: 100%;
+     }
+@@ -14,7 +16,7 @@
+     display: flex;
+     flex-direction: column;
+     flex: 1 1 auto;
+-    margin: 0 3.5rem;
++    margin: 0 2.5rem;
+ 
+     .title__container {
+       display: flex;
+@@ -37,18 +39,19 @@
+ 
+     .info__container {
+       display: flex;
+-      justify-content: space-between;
++      justify-content: center;
+       align-items: center;
+ 
+       .info {
+         display: flex;
++        flex-grow: 1.5;
+         flex-direction: column;
+         justify-content: start;
+         align-items: center;
+         font-family: Poppins-Medium;
+         font-size: 16px;
+-        margin-left: 15px;
+-        margin-right: 15px;
++        margin-left: 20px;
++        margin-right: 20px;
+         div{
+           font-size: 14px;
+         }
+@@ -60,6 +63,7 @@
+         display: flex;
+         align-items: center;
+         justify-content: center;
++        flex-grow: 1;
+         background-color: #f1f2f6;
+         border-radius: 50%;
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"396bbc06-5640-4d6b-bf2a-4ffcbd986971\" name=\"Changes\" comment=\"Layout fix\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024__17_17__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024__17_17__Changes_.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_02_2024_11_20__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_02_2024_11_20__Changes_.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/public/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/public/index.html\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/components/HeaderMatches/HeaderMatches.module.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/HeaderMatches/HeaderMatches.module.scss\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/components/HeaderMatches/index.jsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/HeaderMatches/index.jsx\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/components/News/News.module.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/News/News.module.scss\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/components/PlayerOfTheWeek/PlayerOfTheWeek.module.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/PlayerOfTheWeek/PlayerOfTheWeek.module.scss\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/components/RecentNews/RecentNews.module.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/RecentNews/RecentNews.module.scss\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/components/TopTeams/TopTeams.module.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/TopTeams/TopTeams.module.scss\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/pages/Home.jsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pages/Home.jsx\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"JavaScript File\" />\n        <option value=\"SCSS File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Merge.Settings\">\n    <option name=\"BRANCH\" value=\"master\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2bgMBCrtS362OdKycOeRRO9Gd2h\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;slav1k&quot;,\n    &quot;last_opened_file_path&quot;: &quot;/Users/vyacheslavbotoev/WebstormProjects/hltv-concept/src/assets/images/navbar&quot;,\n    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\n    &quot;npm.npm start.executor&quot;: &quot;Run&quot;,\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/assets/images/navbar\" />\n      <recent name=\"$PROJECT_DIR$/src/assets/images\" />\n      <recent name=\"$PROJECT_DIR$/src/assets/fonts\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src\" />\n      <recent name=\"$PROJECT_DIR$/src/assets/fonts\" />\n      <recent name=\"$PROJECT_DIR$/src/components/News\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"npm.npm start\">\n    <configuration name=\"Debug Application\" type=\"JavascriptDebugType\" uri=\"http://localhost:3000\">\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"npm start\" type=\"js.build_tools.npm\">\n      <package-json value=\"$PROJECT_DIR$/package.json\" />\n      <command value=\"run\" />\n      <scripts>\n        <script value=\"start\" />\n      </scripts>\n      <node-interpreter value=\"project\" />\n      <envs />\n      <method v=\"2\" />\n    </configuration>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"396bbc06-5640-4d6b-bf2a-4ffcbd986971\" name=\"Changes\" comment=\"\" />\n      <created>1706632130835</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1706632130835</updated>\n      <workItem from=\"1706632131972\" duration=\"1590000\" />\n      <workItem from=\"1706694891766\" duration=\"6733000\" />\n      <workItem from=\"1706816383733\" duration=\"7245000\" />\n      <workItem from=\"1708156904831\" duration=\"20000\" />\n      <workItem from=\"1708157318484\" duration=\"824000\" />\n      <workItem from=\"1708246558231\" duration=\"1560000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Init commit\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1706695730239</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1706695730239</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Init commit\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1706695764365</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1706695764365</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Added Hltv service and hook useFetching\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1707210787768</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1707210787768</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"4\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Init commit\" />\n    <MESSAGE value=\"Added Hltv service and hook useFetching\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Added Hltv service and hook useFetching\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,17 +5,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="396bbc06-5640-4d6b-bf2a-4ffcbd986971" name="Changes" comment="Layout fix">
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024__17_17__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024__17_17__Changes_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_02_2024_11_20__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_02_2024_11_20__Changes_.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/components/HeaderMatches/HeaderMatches.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderMatches/HeaderMatches.module.scss" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/components/HeaderMatches/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderMatches/index.jsx" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/components/News/News.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/News/News.module.scss" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/components/PlayerOfTheWeek/PlayerOfTheWeek.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlayerOfTheWeek/PlayerOfTheWeek.module.scss" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/components/RecentNews/RecentNews.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RecentNews/RecentNews.module.scss" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/components/TopTeams/TopTeams.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopTeams/TopTeams.module.scss" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />

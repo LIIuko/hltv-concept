@@ -1,26 +1,36 @@
-.container{
+.container {
   display: flex;
   flex-direction: column;
-  width: 10%;
+  width: 20%;
   font-family: Poppins-Medium;
-  font-size: 16px;
+  font-size: 1.1rem;
   color: #a0a0a0;
-  margin-left: 40px;
-  margin-right: 60px;
+  margin-left: 20px;
 
-  .item{
+  .item {
     display: flex;
-    margin-bottom: 40px;
+    margin-bottom: 2rem;
     align-items: center;
     cursor: pointer;
+    transition: .7s;
 
-    .img{
-      margin-right: 1.5rem;
-      height: 30px;
-      width: 30px;
+    &:hover {
+      color: #000;
+      transition: .7s;
+      .img {
+        path{
+          transition: .7s;
+          fill: #1446c6
+        }
+      }
+    }
 
-      img{
-        height: 100%;
+    .img {
+      margin-right: 1rem;
+      height: 2rem;
+      width: 2rem;
+      path{
+        transition: .7s;
       }
     }
   }
