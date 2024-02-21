@@ -12,7 +12,6 @@ const Navbar = () => {
     const navbar = [
         {img: <Home/>, title: 'Home'},
         {img: <Matches/>, title: 'Matches'},
-        {img: <Results/>, title: 'Results'},
         {img: <Events/>, title: 'Events'},
         {img: <Stats/>, title: 'Stats'},
         {img: <Galleries/>, title: 'Galleries'},

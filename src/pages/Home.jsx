@@ -7,6 +7,7 @@ import TopTeams from "../components/TopTeams";
 import PlayerOfTheWeek from "../components/PlayerOfTheWeek";
 import Header from "../components/Header/Header";
 import styles from './Home.module.scss'
+import Team from "../components/Team";
 
 const Home = ({recentNews, topTeams, matches}) => {
     return (
@@ -33,6 +34,7 @@ const Home = ({recentNews, topTeams, matches}) => {
                             <TopTeams topTeams={topTeams}></TopTeams>
                         </div>
                     </div>
+                    <Team teams={topTeams}></Team>
                 </div>
             </div>
 

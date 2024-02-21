@@ -1,0 +1,16 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0;
+  width: 65vh;
+  height: 20vh;
+  color: black;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-right: 20px;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+  &:hover{
+    box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.06);
+    transform: translateY(-5px);
+  }
+}

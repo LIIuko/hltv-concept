@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="396bbc06-5640-4d6b-bf2a-4ffcbd986971" name="Changes" comment="Layout fix">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_02_2024__17_25__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_02_2024__17_25__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_02_2024__14_28__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_02_2024__14_28__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/bell.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/bell.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News/News.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/News/News.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PlayerOfTheWeek/PlayerOfTheWeek.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlayerOfTheWeek/PlayerOfTheWeek.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RecentNews/RecentNews.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RecentNews/RecentNews.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RecentNews/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RecentNews/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/navbar/events.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/navbar/events.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/navbar/galleries.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/navbar/galleries.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/navbar/home.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/navbar/home.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/navbar/matches.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/navbar/matches.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/navbar/stats.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/navbar/stats.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopTeams/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopTeams/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,24 +47,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "slav1k",
-    "last_opened_file_path": "C:/Users/botoe/WebstormProjects/hltv-concept/src/assets/fonts",
-    "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "npm.npm start.executor": "Run",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;slav1k&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/botoe/WebstormProjects/hltv-concept/src/assets/fonts&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.npm start.executor&quot;: &quot;Run&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\botoe\WebstormProjects\hltv-concept\src\assets\fonts" />
