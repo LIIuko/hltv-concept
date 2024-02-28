@@ -3,19 +3,13 @@
   flex-direction: row;
   margin-top: 5%;
 }
-.content__container{
-}
 
 .top__block{
   display: flex;
   margin-top: 6vh;
   flex-direction: row;
-  justify-content: start;
-  align-items: start;
-}
-
-.news__container{
-
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .players__container{

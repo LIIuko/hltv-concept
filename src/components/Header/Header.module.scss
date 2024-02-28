@@ -29,8 +29,8 @@ header {
   .nav__container {
     display: flex;
     flex-direction: row;
-    align-items: end;
-    justify-content: end;
+    align-items: flex-end;
+    justify-content: flex-end;
     margin: 0px 10px;
     .button {
       display: flex;

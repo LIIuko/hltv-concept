@@ -5,7 +5,7 @@ const TopTeams = (props) => {
     const topTeams = props.topTeams
     return (
         <ul className={styles.team__list}>
-            {topTeams.map(({team, image, country, points}) => (
+            {topTeams.slice(0, 5).map(({team, image, country, points}) => (
                 <li>
                     <img src={image} className={styles.team__logo} alt="Team Logo" />
                     <div className={styles.team__info}>
@@ -15,7 +15,6 @@ const TopTeams = (props) => {
                         </div>
                         <span className={styles.team__points}>{points} Points</span>
                     </div>
-
                 </li>
                 ))}
         </ul>
