@@ -37,7 +37,7 @@ $color: #1c1b23;
 .image__container{
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -67,7 +67,7 @@ $color: #1c1b23;
   margin-left: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   span {
     font-family: Bebas;
     font-size: 28px;
