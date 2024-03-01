@@ -2,26 +2,23 @@ import styles from "./PlayersList.module.scss";
 
 const PlayersList = ({ players, isOpened }) => {
     return (
-        <div className={styles.container}>
-            {players.map((item) => {
-                console.log(item);
-                return isOpened ? (
-                    <div>
-                        <img src={item.image} alt="Player" />
+        <>
+            {players.map(({ image, country, nickname }) =>
+                isOpened ? (
+                    <div className={styles.drawer}>
+                        <img src={image} alt="Player" />
                         <div className={styles.name}>
-                            <img src={item.country.flag} alt="Flag" />
-                            <h4>{item.nickname}</h4>
+                            <img src={country.flag} alt="Flag" />
+                            <h4>{nickname}</h4>
                         </div>
                     </div>
                 ) : (
-                    <div>
-                        <div className={styles.name}>
-                            <h4>{item.nickname}</h4>
-                        </div>
+                    <div className={styles.nickname}>
+                        <h4>• {nickname}</h4>
                     </div>
-                );
-            })}
-        </div>
+                )
+            )}
+        </>
     );
 };
 
