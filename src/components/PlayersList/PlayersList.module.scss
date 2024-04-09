@@ -1,9 +1,39 @@
-.container {
-display: flex;
-  justify-content: center;
-  align-items: center;
+.playersList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+
+    .player {
+        width: 45%;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        .playerDetails {
+            margin-top: 5px;
+
+            img {
+                width: 20px;
+                height: 20px;
+                margin-right: 5px;
+            }
+        }
+    }
 }
 
-.name {
-  display: flex;
+.playersListHidden {
+    display: none;
 }
