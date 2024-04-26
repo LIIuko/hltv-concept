@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="396bbc06-5640-4d6b-bf2a-4ffcbd986971" name="Changes" comment="Navbar svg and top teams list" />
+    <list default="true" id="396bbc06-5640-4d6b-bf2a-4ffcbd986971" name="Changes" comment="Added top teams list">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_02_2024_20_43_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_02_2024_20_43__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PlayersList/PlayersList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlayersList/PlayersList.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PlayersList/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlayersList/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Team/Team.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Team/Team.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Team/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Team/index.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +60,7 @@
     &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;npm.npm start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -100,6 +109,10 @@
       <workItem from="1708761410238" duration="35000" />
       <workItem from="1709129876676" duration="122000" />
       <workItem from="1709131550281" duration="217000" />
+      <workItem from="1712659720788" duration="3523000" />
+      <workItem from="1713108283905" duration="5949000" />
+      <workItem from="1713793376583" duration="1662000" />
+      <workItem from="1714159610461" duration="135000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <option name="closed" value="true" />
@@ -133,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708526986905</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added top teams list">
+      <option name="closed" value="true" />
+      <created>1712660083709</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712660083710</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +175,7 @@
     <MESSAGE value="Init commit" />
     <MESSAGE value="Added Hltv service and hook useFetching" />
     <MESSAGE value="Navbar svg and top teams list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Navbar svg and top teams list" />
+    <MESSAGE value="Added top teams list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added top teams list" />
   </component>
 </project>

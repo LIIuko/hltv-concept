@@ -1,25 +1,20 @@
-import { useEffect } from "react";
-import styles from "./PlayersList.module.scss";
+import React from 'react';
+import styles from './PlayersList.module.scss';
 
-const PlayersList = ({ players, isOpened }) => {
+const PlayersList = ( {players} ) => {
+    console.log(players)
     return (
-        <>
-            {players?.map(({ image, country, nickname }) =>
-                isOpened ? (
-                    <div className={styles.drawer}>
-                        <img src={image} alt="Player" />
-                        <div className={styles.name}>
-                            <img src={country.flag} alt="Flag" />
-                            <h4>{nickname}</h4>
-                        </div>
+        <ul className={styles.players__list}>
+            {players?.map(({image, country, nickname}) => (
+                <li key={nickname} className={styles.player__item}>
+                    <img src={image} alt={nickname} />
+                    <div className={styles.player__info}>
+                        <img src={country.flag} alt={country.name}/>
+                        <h4>{nickname}</h4>
                     </div>
-                ) : (
-                    <div className={styles.nickname}>
-                        <h4>• {nickname}</h4>
-                    </div>
-                )
-            )}
-        </>
+                </li>
+            ))}
+        </ul>
     );
 };
 
