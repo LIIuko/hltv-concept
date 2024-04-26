@@ -9,9 +9,7 @@ const Team = ({teams}) => {
                 <li key={team.team} className={styles.team}>
                     <div className={styles.container}>
                         <div className={styles.team__info}>
-                            <div className={styles.number}>
-                                <h2>#{index + 1}</h2>
-                            </div>
+                            <h2>#{index + 1}</h2>
                             <div className={styles.name}>
                                 <img src={team.image} alt="Team logo"/>
                                 <h3>{team.team}</h3>

@@ -7,7 +7,7 @@ const PlayersList = ( {players} ) => {
         <ul className={styles.players__list}>
             {players?.map(({image, country, nickname}) => (
                 <li key={nickname} className={styles.player__item}>
-                    <img src={image} alt={nickname} />
+                    <img className={styles.player__img} src={image} alt={nickname} />
                     <div className={styles.player__info}>
                         <img src={country.flag} alt={country.name}/>
                         <h4>{nickname}</h4>
