@@ -1,13 +1,14 @@
-import { useEffect, useState, Suspense } from "react";
-
 import "./App.css";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 
 import HltvService from "./API/HltvService";
 import { useFetching } from "./hooks/useFetch";
 import { Route, Routes } from "react-router-dom";
 import NotFound from "./pages/NotFound";
 import MainLayout from "./Layout/MainLayout";
+import TopTeamsPage from "./pages/TopTeams/TopTeamsPage"
+import {Suspense, useEffect, useState} from "react";
+
 
 function App() {
     const [topTeams, setTopTeams] = useState([]);
@@ -52,6 +53,9 @@ function App() {
                         />
                     }
                 />
+                <Route
+                    path="top-teams" element={<TopTeamsPage topTeams={topTeams}/>}>
+                </Route>
                 <Route
                     path="*"
                     element={

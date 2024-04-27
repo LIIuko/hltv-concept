@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="396bbc06-5640-4d6b-bf2a-4ffcbd986971" name="Changes" comment="Changed top teams list">
+    <list default="true" id="396bbc06-5640-4d6b-bf2a-4ffcbd986971" name="Changes" comment="Finished TopTeams and PlayersList components">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PlayersList/PlayersList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlayersList/PlayersList.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PlayersList/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlayersList/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Team/Team.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Team/Team.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Team/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Team/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +69,8 @@
       <recent name="$PROJECT_DIR$/src/assets/fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/TopTeams" />
+      <recent name="$PROJECT_DIR$/src/pages/Home" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/assets/fonts" />
       <recent name="$PROJECT_DIR$/src/components/News" />
@@ -110,7 +111,8 @@
       <workItem from="1712659720788" duration="3523000" />
       <workItem from="1713108283905" duration="5949000" />
       <workItem from="1713793376583" duration="1662000" />
-      <workItem from="1714159610461" duration="3976000" />
+      <workItem from="1714159610461" duration="4086000" />
+      <workItem from="1714208628743" duration="3900000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <option name="closed" value="true" />
@@ -160,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714159794370</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finished TopTeams and PlayersList components">
+      <option name="closed" value="true" />
+      <created>1714163695364</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714163695364</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +193,7 @@
     <MESSAGE value="Navbar svg and top teams list" />
     <MESSAGE value="Added top teams list" />
     <MESSAGE value="Changed top teams list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed top teams list" />
+    <MESSAGE value="Finished TopTeams and PlayersList components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished TopTeams and PlayersList components" />
   </component>
 </project>
