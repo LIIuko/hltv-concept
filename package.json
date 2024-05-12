@@ -4,9 +4,6 @@
   "private": true,
   "dependencies": {
     "@beermonster/hltv": "^3.5.12",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
     "axios": "^1.6.7",
     "buffer": "^6.0.3",
     "classnames": "^2.5.1",
@@ -41,5 +38,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.5",
+    "@testing-library/react": "^15.0.7",
+    "@testing-library/user-event": "^14.5.2"
   }
 }

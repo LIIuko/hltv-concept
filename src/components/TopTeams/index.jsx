@@ -6,7 +6,7 @@ const TopTeams = (props) => {
     return (
         <ul className={styles.team__list}>
             {topTeams.slice(0, 5).map(({team, image, country, points}) => (
-                <li>
+                <li key={team.name}>
                     <img src={image} className={styles.team__logo} alt="Team Logo" />
                     <div className={styles.team__info}>
                         <div className={styles.team__info__header}>

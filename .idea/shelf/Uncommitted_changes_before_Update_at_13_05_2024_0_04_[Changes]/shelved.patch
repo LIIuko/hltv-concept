@@ -1,0 +1,535 @@
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_28_02_2024_20_43__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_28_02_2024_20_43__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_28_02_2024_20_43__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_28_02_2024_20_43__Changes_.xml	(revision 926756b263191202b965c18de37b4983b0ae1f15)
++++ /dev/null	(revision 926756b263191202b965c18de37b4983b0ae1f15)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_28_02_2024_20_43_[Changes]" date="1709142239993" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_02_2024_20_43_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 28.02.2024 20:43 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_28_02_2024_20_43_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_28_02_2024_20_43_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_28_02_2024_20_43_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_28_02_2024_20_43_[Changes]/shelved.patch	(revision 926756b263191202b965c18de37b4983b0ae1f15)
++++ /dev/null	(revision 926756b263191202b965c18de37b4983b0ae1f15)
+@@ -1,473 +0,0 @@
+-Index: .idea/shelf/Uncommitted_changes_before_Update_at_19_02_2024_20_45_[Changes]/shelved.patch
+-===================================================================
+-diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_19_02_2024_20_45_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_19_02_2024_20_45_[Changes]/shelved.patch
+-deleted file mode 100644
+---- a/.idea/shelf/Uncommitted_changes_before_Update_at_19_02_2024_20_45_[Changes]/shelved.patch	(revision 5bf55337b2a4261a31c558da8a84015866bca368)
+-+++ /dev/null	(revision 5bf55337b2a4261a31c558da8a84015866bca368)
+-@@ -1,65 +0,0 @@
+--Index: .idea/workspace.xml
+--IDEA additional info:
+--Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+--<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"396bbc06-5640-4d6b-bf2a-4ffcbd986971\" name=\"Changes\" comment=\"Layout fix\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024__17_17__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024__17_17__Changes_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_02_2024_11_20__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_02_2024_11_20__Changes_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/public/index.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/components/HeaderMatches/HeaderMatches.module.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/HeaderMatches/HeaderMatches.module.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/components/HeaderMatches/index.jsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/HeaderMatches/index.jsx\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/components/News/News.module.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/News/News.module.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/components/PlayerOfTheWeek/PlayerOfTheWeek.module.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/PlayerOfTheWeek/PlayerOfTheWeek.module.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/components/RecentNews/RecentNews.module.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/RecentNews/RecentNews.module.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/components/TopTeams/TopTeams.module.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/TopTeams/TopTeams.module.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pages/Home.jsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pages/Home.jsx\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaScript File\" />\r\n        <option value=\"SCSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Merge.Settings\">\r\n    <option name=\"BRANCH\" value=\"master\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2bgMBCrtS362OdKycOeRRO9Gd2h\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;slav1k&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;/Users/vyacheslavbotoev/WebstormProjects/hltv-concept/src/assets/images/navbar&quot;,\r\n    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;npm.npm start.executor&quot;: &quot;Run&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"$PROJECT_DIR$/src/assets/images/navbar\" />\r\n      <recent name=\"$PROJECT_DIR$/src/assets/images\" />\r\n      <recent name=\"$PROJECT_DIR$/src/assets/fonts\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"$PROJECT_DIR$/src\" />\r\n      <recent name=\"$PROJECT_DIR$/src/assets/fonts\" />\r\n      <recent name=\"$PROJECT_DIR$/src/components/News\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"npm.npm start\">\r\n    <configuration name=\"Debug Application\" type=\"JavascriptDebugType\" uri=\"http://localhost:3000\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"npm start\" type=\"js.build_tools.npm\">\r\n      <package-json value=\"$PROJECT_DIR$/package.json\" />\r\n      <command value=\"run\" />\r\n      <scripts>\r\n        <script value=\"start\" />\r\n      </scripts>\r\n      <node-interpreter value=\"project\" />\r\n      <envs />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"396bbc06-5640-4d6b-bf2a-4ffcbd986971\" name=\"Changes\" comment=\"\" />\r\n      <created>1706632130835</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1706632130835</updated>\r\n      <workItem from=\"1706632131972\" duration=\"1590000\" />\r\n      <workItem from=\"1706694891766\" duration=\"6733000\" />\r\n      <workItem from=\"1706816383733\" duration=\"7245000\" />\r\n      <workItem from=\"1708156904831\" duration=\"20000\" />\r\n      <workItem from=\"1708157318484\" duration=\"824000\" />\r\n      <workItem from=\"1708246558231\" duration=\"1560000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Init commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706695730239</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706695730239</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Init commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706695764365</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706695764365</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Added Hltv service and hook useFetching\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1707210787768</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1707210787768</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Init commit\" />\r\n    <MESSAGE value=\"Added Hltv service and hook useFetching\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Added Hltv service and hook useFetching\" />\r\n  </component>\r\n</project>
+--Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+--<+>UTF-8
+--===================================================================
+--diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+----- a/.idea/workspace.xml	(revision 829e4af3f53e36f6e71d1a388f8962bb244d7860)
+--+++ b/.idea/workspace.xml	(date 1708364755050)
+--@@ -4,18 +4,8 @@
+--     <option name="autoReloadType" value="SELECTIVE" />
+--   </component>
+--   <component name="ChangeListManager">
+---    <list default="true" id="396bbc06-5640-4d6b-bf2a-4ffcbd986971" name="Changes" comment="Layout fix">
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024__17_17__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024__17_17__Changes_.xml" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_02_2024_11_20__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_02_2024_11_20__Changes_.xml" afterDir="false" />
+--+    <list default="true" id="396bbc06-5640-4d6b-bf2a-4ffcbd986971" name="Changes" comment="Added Home page">
+--       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/components/HeaderMatches/HeaderMatches.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderMatches/HeaderMatches.module.scss" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/components/HeaderMatches/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderMatches/index.jsx" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/components/News/News.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/News/News.module.scss" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/components/PlayerOfTheWeek/PlayerOfTheWeek.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlayerOfTheWeek/PlayerOfTheWeek.module.scss" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/components/RecentNews/RecentNews.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RecentNews/RecentNews.module.scss" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/components/TopTeams/TopTeams.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopTeams/TopTeams.module.scss" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
+--     </list>
+--     <option name="SHOW_DIALOG" value="false" />
+--     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+--@@ -108,6 +98,8 @@
+--       <workItem from="1708156904831" duration="20000" />
+--       <workItem from="1708157318484" duration="824000" />
+--       <workItem from="1708246558231" duration="1560000" />
+--+      <workItem from="1708335928598" duration="91000" />
+--+      <workItem from="1708364389368" duration="361000" />
+--     </task>
+--     <task id="LOCAL-00001" summary="Init commit">
+--       <option name="closed" value="true" />
+--@@ -133,7 +125,14 @@
+--       <option name="project" value="LOCAL" />
+--       <updated>1707210787768</updated>
+--     </task>
+---    <option name="localTasksCounter" value="4" />
+--+    <task id="LOCAL-00004" summary="Added Home page">
+--+      <created>1708336008074</created>
+--+      <option name="number" value="00004" />
+--+      <option name="presentableId" value="LOCAL-00004" />
+--+      <option name="project" value="LOCAL" />
+--+      <updated>1708336008074</updated>
+--+    </task>
+--+    <option name="localTasksCounter" value="5" />
+--     <servers />
+--   </component>
+--   <component name="TypeScriptGeneratedFilesManager">
+--@@ -153,6 +152,7 @@
+--   <component name="VcsManagerConfiguration">
+--     <MESSAGE value="Init commit" />
+--     <MESSAGE value="Added Hltv service and hook useFetching" />
+---    <option name="LAST_COMMIT_MESSAGE" value="Added Hltv service and hook useFetching" />
+--+    <MESSAGE value="Added Home page" />
+--+    <option name="LAST_COMMIT_MESSAGE" value="Added Home page" />
+--   </component>
+-- </project>
+--\ No newline at end of file
+-Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024_0_45_[Changes]1/shelved.patch
+-===================================================================
+-diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024_0_45_[Changes]1/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024_0_45_[Changes]1/shelved.patch
+-deleted file mode 100644
+---- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024_0_45_[Changes]1/shelved.patch	(revision 5bf55337b2a4261a31c558da8a84015866bca368)
+-+++ /dev/null	(revision 5bf55337b2a4261a31c558da8a84015866bca368)
+-@@ -1,58 +0,0 @@
+--Index: .idea/workspace.xml
+--IDEA additional info:
+--Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+--<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"396bbc06-5640-4d6b-bf2a-4ffcbd986971\" name=\"Changes\" comment=\"Navbar components done\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/App.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/App.module.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/App.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/App.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/components/header/Header.jsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/header/Header.jsx\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/components/header/Header.module.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/header/Header.module.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/components/navbar/Navbar.module.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/navbar/Navbar.module.scss\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"slav1k\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;LIIuko&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"f8a3ce88-0aa3-4758-ab4f-0b60fdbc2b1f\" />\r\n        <option name=\"url\" value=\"https://github.com/LIIuko/hltv-concept.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2bgMBCrtS362OdKycOeRRO9Gd2h\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;kostinxyu&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;D:/Programming/hltv-best/src/assets/images/navbar&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;npm.npm start.executor&quot;: &quot;Run&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\Programming\\hltv-best\\src\\assets\\images\\navbar\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\Programming\\hltv-best\\src\\components\\headerMatches\" />\r\n      <recent name=\"D:\\Programming\\hltv-best\\src\\components\\navbar\" />\r\n      <recent name=\"D:\\Programming\\hltv-best\\src\\components\\header\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"npm.npm start\">\r\n    <configuration name=\"Debug Application\" type=\"JavascriptDebugType\" uri=\"http://localhost:3000\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"npm start\" type=\"js.build_tools.npm\">\r\n      <package-json value=\"$PROJECT_DIR$/package.json\" />\r\n      <command value=\"run\" />\r\n      <scripts>\r\n        <script value=\"start\" />\r\n      </scripts>\r\n      <node-interpreter value=\"project\" />\r\n      <envs />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"396bbc06-5640-4d6b-bf2a-4ffcbd986971\" name=\"Changes\" comment=\"\" />\r\n      <created>1706632130835</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1706632130835</updated>\r\n      <workItem from=\"1706632131972\" duration=\"1590000\" />\r\n      <workItem from=\"1706634347470\" duration=\"5000\" />\r\n      <workItem from=\"1706634916057\" duration=\"123000\" />\r\n      <workItem from=\"1706635091820\" duration=\"504000\" />\r\n      <workItem from=\"1706635683612\" duration=\"32000\" />\r\n      <workItem from=\"1706635725723\" duration=\"17000\" />\r\n      <workItem from=\"1706690611729\" duration=\"599000\" />\r\n      <workItem from=\"1706695074062\" duration=\"7317000\" />\r\n      <workItem from=\"1706710587651\" duration=\"3385000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"RECENT_FILTERS\">\r\n      <map>\r\n        <entry key=\"Branch\">\r\n          <value>\r\n            <list>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"origin/master\" />\r\n                </option>\r\n              </RecentGroup>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"HEAD\" />\r\n                </option>\r\n              </RecentGroup>\r\n            </list>\r\n          </value>\r\n        </entry>\r\n        <entry key=\"User\">\r\n          <value>\r\n            <list>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"*\" />\r\n                </option>\r\n              </RecentGroup>\r\n            </list>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Init commit\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Init commit\" />\r\n  </component>\r\n</project>
+--Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+--<+>UTF-8
+--===================================================================
+--diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+----- a/.idea/workspace.xml	(revision a6aaf949fd44d5a52737430546b73217ebc7e2dd)
+--+++ b/.idea/workspace.xml	(date 1708206318900)
+--@@ -4,14 +4,7 @@
+--     <option name="autoReloadType" value="SELECTIVE" />
+--   </component>
+--   <component name="ChangeListManager">
+---    <list default="true" id="396bbc06-5640-4d6b-bf2a-4ffcbd986971" name="Changes" comment="Navbar components done">
+---      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.scss" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/components/header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.module.scss" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.module.scss" afterDir="false" />
+---    </list>
+--+    <list default="true" id="396bbc06-5640-4d6b-bf2a-4ffcbd986971" name="Changes" comment="Layout fix" />
+--     <option name="SHOW_DIALOG" value="false" />
+--     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+--     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+--@@ -117,6 +110,15 @@
+--     <option name="version" value="3" />
+--   </component>
+--   <component name="Vcs.Log.Tabs.Properties">
+--+    <option name="TAB_STATES">
+--+      <map>
+--+        <entry key="MAIN">
+--+          <value>
+--+            <State />
+--+          </value>
+--+        </entry>
+--+      </map>
+--+    </option>
+--     <option name="RECENT_FILTERS">
+--       <map>
+--         <entry key="Branch">
+--@@ -144,15 +146,6 @@
+--                 </option>
+--               </RecentGroup>
+--             </list>
+---          </value>
+---        </entry>
+---      </map>
+---    </option>
+---    <option name="TAB_STATES">
+---      <map>
+---        <entry key="MAIN">
+---          <value>
+---            <State />
+--           </value>
+--         </entry>
+--       </map>
+-Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024_0_45__Changes_1.xml
+-===================================================================
+-diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024_0_45__Changes_1.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024_0_45__Changes_1.xml
+-deleted file mode 100644
+---- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024_0_45__Changes_1.xml	(revision 5bf55337b2a4261a31c558da8a84015866bca368)
+-+++ /dev/null	(revision 5bf55337b2a4261a31c558da8a84015866bca368)
+-@@ -1,4 +0,0 @@
+--<changelist name="Uncommitted_changes_before_Checkout_at_18_02_2024_0_45_[Changes]1" date="1708206344001" recycled="true" deleted="true">
+--  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024_0_45_[Changes]1/shelved.patch" />
+--  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 18.02.2024 0:45 [Changes]" />
+--</changelist>
+-\ No newline at end of file
+-Index: .idea/shelf/Uncommitted_changes_before_Update_at_19_02_2024_20_45__Changes_.xml
+-===================================================================
+-diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_19_02_2024_20_45__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_19_02_2024_20_45__Changes_.xml
+-deleted file mode 100644
+---- a/.idea/shelf/Uncommitted_changes_before_Update_at_19_02_2024_20_45__Changes_.xml	(revision 5bf55337b2a4261a31c558da8a84015866bca368)
+-+++ /dev/null	(revision 5bf55337b2a4261a31c558da8a84015866bca368)
+-@@ -1,4 +0,0 @@
+--<changelist name="Uncommitted_changes_before_Update_at_19_02_2024_20_45_[Changes]" date="1708364759772" recycled="true" deleted="true">
+--  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_02_2024_20_45_[Changes]/shelved.patch" />
+--  <option name="DESCRIPTION" value="Uncommitted changes before Update at 19.02.2024 20:45 [Changes]" />
+--</changelist>
+-\ No newline at end of file
+-Index: .idea/shelf/Uncommitted_changes_before_Update_at_19_02_2024__14_28__Changes_.xml
+-===================================================================
+-diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_19_02_2024__14_28__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_19_02_2024__14_28__Changes_.xml
+-deleted file mode 100644
+---- a/.idea/shelf/Uncommitted_changes_before_Update_at_19_02_2024__14_28__Changes_.xml	(revision 5bf55337b2a4261a31c558da8a84015866bca368)
+-+++ /dev/null	(revision 5bf55337b2a4261a31c558da8a84015866bca368)
+-@@ -1,4 +0,0 @@
+--<changelist name="Uncommitted_changes_before_Update_at_19_02_2024,_14_28_[Changes]" date="1708342141033" recycled="true" deleted="true">
+--  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_02_2024,_14_28_[Changes]/shelved.patch" />
+--  <option name="DESCRIPTION" value="Uncommitted changes before Update at 19.02.2024, 14:28 [Changes]" />
+--</changelist>
+-\ No newline at end of file
+-Index: .idea/shelf/Uncommitted_changes_before_Update_at_19_02_2024,_14_28_[Changes]/shelved.patch
+-===================================================================
+-diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_19_02_2024,_14_28_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_19_02_2024,_14_28_[Changes]/shelved.patch
+-deleted file mode 100644
+---- a/.idea/shelf/Uncommitted_changes_before_Update_at_19_02_2024,_14_28_[Changes]/shelved.patch	(revision 5bf55337b2a4261a31c558da8a84015866bca368)
+-+++ /dev/null	(revision 5bf55337b2a4261a31c558da8a84015866bca368)
+-@@ -1,78 +0,0 @@
+--Index: .idea/workspace.xml
+--IDEA additional info:
+--Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+--<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"396bbc06-5640-4d6b-bf2a-4ffcbd986971\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_02_2024__17_03__Changes_.xml\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_02_2024,_23_52_[Changes]/shelved.patch\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_02_2024__23_52__Changes_.xml\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024,_01_44_[Changes]/shelved.patch\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024,_17_17_[Changes]1/shelved.patch\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024__01_44__Changes_.xml\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024__17_17__Changes_1.xml\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_02_2024_11_28_[Changes]/shelved.patch\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_02_2024_11_28__Changes_.xml\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_02_2024_11_29_[Changes]/shelved.patch\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_02_2024_11_29__Changes_.xml\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_13_[Changes]/shelved.patch\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_13_[Changes]1/shelved.patch\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_13__Changes_.xml\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_13__Changes_1.xml\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_15_[Changes]/shelved.patch\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_15__Changes_.xml\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_16_[Changes]/shelved.patch\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_16_[Changes]1/shelved.patch\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_16__Changes_.xml\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_16__Changes_1.xml\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_18_[Changes]/shelved.patch\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_18__Changes_.xml\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_19_[Changes]/shelved.patch\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_19__Changes_.xml\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_18_21_[Changes]/shelved.patch\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_18_21__Changes_.xml\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/assets/images/navbar/matches.svg\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/assets/images/navbar/matches.svg\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/assets/images/navbar/results.svg\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/assets/images/navbar/results.svg\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/components/Header/Header.module.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/Header/Header.module.scss\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/components/Input/Input.module.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/Input/Input.module.scss\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/components/PlayerOfTheWeek/PlayerOfTheWeek.module.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/PlayerOfTheWeek/PlayerOfTheWeek.module.scss\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"JavaScript File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Merge.Settings\">\n    <option name=\"BRANCH\" value=\"master\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2bgMBCrtS362OdKycOeRRO9Gd2h\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;slav1k&quot;,\n    &quot;last_opened_file_path&quot;: &quot;/Users/vyacheslavbotoev/WebstormProjects/hltv-concept/src/assets/images/navbar&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\n    &quot;npm.npm start.executor&quot;: &quot;Run&quot;,\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/assets/images/navbar\" />\n      <recent name=\"$PROJECT_DIR$/src/assets/images\" />\n      <recent name=\"$PROJECT_DIR$/src/assets/fonts\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src\" />\n      <recent name=\"$PROJECT_DIR$/src/assets/fonts\" />\n      <recent name=\"$PROJECT_DIR$/src/components/News\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"npm.npm start\">\n    <configuration name=\"Debug Application\" type=\"JavascriptDebugType\" uri=\"http://localhost:3000\">\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"npm start\" type=\"js.build_tools.npm\">\n      <package-json value=\"$PROJECT_DIR$/package.json\" />\n      <command value=\"run\" />\n      <scripts>\n        <script value=\"start\" />\n      </scripts>\n      <node-interpreter value=\"project\" />\n      <envs />\n      <method v=\"2\" />\n    </configuration>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"396bbc06-5640-4d6b-bf2a-4ffcbd986971\" name=\"Changes\" comment=\"\" />\n      <created>1706632130835</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1706632130835</updated>\n      <workItem from=\"1706632131972\" duration=\"1590000\" />\n      <workItem from=\"1706694891766\" duration=\"6733000\" />\n      <workItem from=\"1706816383733\" duration=\"7245000\" />\n      <workItem from=\"1708156904831\" duration=\"20000\" />\n      <workItem from=\"1708157318484\" duration=\"824000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Init commit\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1706695730239</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1706695730239</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Init commit\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1706695764365</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1706695764365</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Added Hltv service and hook useFetching\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1707210787768</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1707210787768</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"4\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Init commit\" />\n    <MESSAGE value=\"Added Hltv service and hook useFetching\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Added Hltv service and hook useFetching\" />\n  </component>\n</project>
+--Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+--<+>UTF-8
+--===================================================================
+--diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+----- a/.idea/workspace.xml	(revision a5c3c8033489e0f096303ad1d1bf7ae298fdcc0a)
+--+++ b/.idea/workspace.xml	(date 1708342068361)
+--@@ -4,41 +4,7 @@
+--     <option name="autoReloadType" value="SELECTIVE" />
+--   </component>
+--   <component name="ChangeListManager">
+---    <list default="true" id="396bbc06-5640-4d6b-bf2a-4ffcbd986971" name="Changes" comment="">
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_02_2024__17_03__Changes_.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_02_2024,_23_52_[Changes]/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_02_2024__23_52__Changes_.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024,_01_44_[Changes]/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024,_17_17_[Changes]1/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024__01_44__Changes_.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024__17_17__Changes_1.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_02_2024_11_28_[Changes]/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_02_2024_11_28__Changes_.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_02_2024_11_29_[Changes]/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_02_2024_11_29__Changes_.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_13_[Changes]/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_13_[Changes]1/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_13__Changes_.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_13__Changes_1.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_15_[Changes]/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_15__Changes_.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_16_[Changes]/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_16_[Changes]1/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_16__Changes_.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_16__Changes_1.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_18_[Changes]/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_18__Changes_.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_19_[Changes]/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_19__Changes_.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_18_21_[Changes]/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_18_21__Changes_.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/assets/images/navbar/matches.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/navbar/matches.svg" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/assets/images/navbar/results.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/navbar/results.svg" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/components/Input/Input.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input/Input.module.scss" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/components/PlayerOfTheWeek/PlayerOfTheWeek.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlayerOfTheWeek/PlayerOfTheWeek.module.scss" afterDir="false" />
+---    </list>
+--+    <list default="true" id="396bbc06-5640-4d6b-bf2a-4ffcbd986971" name="Changes" comment="Added Hltv service and hook useFetching" />
+--     <option name="SHOW_DIALOG" value="false" />
+--     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+--     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+--@@ -127,6 +93,7 @@
+--       <workItem from="1706816383733" duration="7245000" />
+--       <workItem from="1708156904831" duration="20000" />
+--       <workItem from="1708157318484" duration="824000" />
+--+      <workItem from="1708206079465" duration="700000" />
+--     </task>
+--     <task id="LOCAL-00001" summary="Init commit">
+--       <option name="closed" value="true" />
+--@@ -152,7 +119,15 @@
+--       <option name="project" value="LOCAL" />
+--       <updated>1707210787768</updated>
+--     </task>
+---    <option name="localTasksCounter" value="4" />
+--+    <task id="LOCAL-00004" summary="Added Hltv service and hook useFetching">
+--+      <option name="closed" value="true" />
+--+      <created>1708206130269</created>
+--+      <option name="number" value="00004" />
+--+      <option name="presentableId" value="LOCAL-00004" />
+--+      <option name="project" value="LOCAL" />
+--+      <updated>1708206130269</updated>
+--+    </task>
+--+    <option name="localTasksCounter" value="5" />
+--     <servers />
+--   </component>
+--   <component name="TypeScriptGeneratedFilesManager">
+-Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024_0_45__Changes_.xml
+-===================================================================
+-diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024_0_45__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024_0_45__Changes_.xml
+-deleted file mode 100644
+---- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024_0_45__Changes_.xml	(revision 5bf55337b2a4261a31c558da8a84015866bca368)
+-+++ /dev/null	(revision 5bf55337b2a4261a31c558da8a84015866bca368)
+-@@ -1,4 +0,0 @@
+--<changelist name="Uncommitted_changes_before_Checkout_at_18_02_2024_0_45_[Changes]" date="1708206314430" recycled="true" deleted="true">
+--  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024_0_45_[Changes]/shelved.patch" />
+--  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 18.02.2024 0:45 [Changes]" />
+--</changelist>
+-\ No newline at end of file
+-Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024_0_45_[Changes]/shelved.patch
+-===================================================================
+-diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024_0_45_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024_0_45_[Changes]/shelved.patch
+-deleted file mode 100644
+---- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024_0_45_[Changes]/shelved.patch	(revision 5bf55337b2a4261a31c558da8a84015866bca368)
+-+++ /dev/null	(revision 5bf55337b2a4261a31c558da8a84015866bca368)
+-@@ -1,62 +0,0 @@
+--Index: .idea/workspace.xml
+--IDEA additional info:
+--Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+--<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"396bbc06-5640-4d6b-bf2a-4ffcbd986971\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_02_2024__17_03__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_02_2024,_23_52_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_02_2024__23_52__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024,_01_44_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024,_17_17_[Changes]1/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024__01_44__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024__17_17__Changes_1.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_02_2024_11_28_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_02_2024_11_28__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_02_2024_11_29_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_02_2024_11_29__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_13_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_13_[Changes]1/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_13__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_13__Changes_1.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_15_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_15__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_16_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_16_[Changes]1/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_16__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_16__Changes_1.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_18_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_18__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_19_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_19__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_18_21_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_18_21__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/assets/images/navbar/matches.svg\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/assets/images/navbar/matches.svg\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/assets/images/navbar/results.svg\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/assets/images/navbar/results.svg\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/components/Header/Header.module.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/Header/Header.module.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/components/Input/Input.module.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/Input/Input.module.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/components/PlayerOfTheWeek/PlayerOfTheWeek.module.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/PlayerOfTheWeek/PlayerOfTheWeek.module.scss\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaScript File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Merge.Settings\">\r\n    <option name=\"BRANCH\" value=\"master\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2bgMBCrtS362OdKycOeRRO9Gd2h\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;slav1k&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;/Users/vyacheslavbotoev/WebstormProjects/hltv-concept/src/assets/images/navbar&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;npm.npm start.executor&quot;: &quot;Run&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"$PROJECT_DIR$/src/assets/images/navbar\" />\r\n      <recent name=\"$PROJECT_DIR$/src/assets/images\" />\r\n      <recent name=\"$PROJECT_DIR$/src/assets/fonts\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"$PROJECT_DIR$/src\" />\r\n      <recent name=\"$PROJECT_DIR$/src/assets/fonts\" />\r\n      <recent name=\"$PROJECT_DIR$/src/components/News\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"npm.npm start\">\r\n    <configuration name=\"Debug Application\" type=\"JavascriptDebugType\" uri=\"http://localhost:3000\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"npm start\" type=\"js.build_tools.npm\">\r\n      <package-json value=\"$PROJECT_DIR$/package.json\" />\r\n      <command value=\"run\" />\r\n      <scripts>\r\n        <script value=\"start\" />\r\n      </scripts>\r\n      <node-interpreter value=\"project\" />\r\n      <envs />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"396bbc06-5640-4d6b-bf2a-4ffcbd986971\" name=\"Changes\" comment=\"\" />\r\n      <created>1706632130835</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1706632130835</updated>\r\n      <workItem from=\"1706632131972\" duration=\"1590000\" />\r\n      <workItem from=\"1706694891766\" duration=\"6733000\" />\r\n      <workItem from=\"1706816383733\" duration=\"7245000\" />\r\n      <workItem from=\"1708156904831\" duration=\"20000\" />\r\n      <workItem from=\"1708157318484\" duration=\"824000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Init commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706695730239</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706695730239</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Init commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706695764365</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706695764365</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Added Hltv service and hook useFetching\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1707210787768</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1707210787768</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Init commit\" />\r\n    <MESSAGE value=\"Added Hltv service and hook useFetching\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Added Hltv service and hook useFetching\" />\r\n  </component>\r\n</project>
+--Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+--<+>UTF-8
+--===================================================================
+--diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+----- a/.idea/workspace.xml	(revision d8d3d50a4f710b30619bf1575ab0abe58370d212)
+--+++ b/.idea/workspace.xml	(date 1708206269289)
+--@@ -4,40 +4,8 @@
+--     <option name="autoReloadType" value="SELECTIVE" />
+--   </component>
+--   <component name="ChangeListManager">
+---    <list default="true" id="396bbc06-5640-4d6b-bf2a-4ffcbd986971" name="Changes" comment="">
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_02_2024__17_03__Changes_.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_02_2024,_23_52_[Changes]/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_02_2024__23_52__Changes_.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024,_01_44_[Changes]/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024,_17_17_[Changes]1/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024__01_44__Changes_.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_02_2024__17_17__Changes_1.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_02_2024_11_28_[Changes]/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_02_2024_11_28__Changes_.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_02_2024_11_29_[Changes]/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_02_2024_11_29__Changes_.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_13_[Changes]/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_13_[Changes]1/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_13__Changes_.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_13__Changes_1.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_15_[Changes]/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_15__Changes_.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_16_[Changes]/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_16_[Changes]1/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_16__Changes_.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_16__Changes_1.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_18_[Changes]/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_18__Changes_.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_19_[Changes]/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_15_19__Changes_.xml" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_18_21_[Changes]/shelved.patch" beforeDir="false" />
+---      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_18_21__Changes_.xml" beforeDir="false" />
+--+    <list default="true" id="396bbc06-5640-4d6b-bf2a-4ffcbd986971" name="Changes" comment="Layout fix">
+--       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/assets/images/navbar/matches.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/navbar/matches.svg" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/assets/images/navbar/results.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/navbar/results.svg" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/components/Input/Input.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input/Input.module.scss" afterDir="false" />
+---      <change beforePath="$PROJECT_DIR$/src/components/PlayerOfTheWeek/PlayerOfTheWeek.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlayerOfTheWeek/PlayerOfTheWeek.module.scss" afterDir="false" />
+--     </list>
+--     <option name="SHOW_DIALOG" value="false" />
+--     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+--@@ -172,6 +140,7 @@
+--   <component name="VcsManagerConfiguration">
+--     <MESSAGE value="Init commit" />
+--     <MESSAGE value="Added Hltv service and hook useFetching" />
+---    <option name="LAST_COMMIT_MESSAGE" value="Added Hltv service and hook useFetching" />
+--+    <MESSAGE value="Layout fix" />
+--+    <option name="LAST_COMMIT_MESSAGE" value="Layout fix" />
+--   </component>
+-- </project>
+--\ No newline at end of file
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"396bbc06-5640-4d6b-bf2a-4ffcbd986971\" name=\"Changes\" comment=\"Layout fix\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_02_2024__17_25__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_02_2024__17_25__Changes_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_02_2024__14_28__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_02_2024__14_28__Changes_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/App.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/App.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/assets/images/bell.svg\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/assets/images/bell.svg\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/components/Header/Header.module.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/Header/Header.module.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/components/Navbar/Navbar.module.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/Navbar/Navbar.module.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/components/News/News.module.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/News/News.module.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/components/PlayerOfTheWeek/PlayerOfTheWeek.module.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/PlayerOfTheWeek/PlayerOfTheWeek.module.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/components/RecentNews/RecentNews.module.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/RecentNews/RecentNews.module.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/components/RecentNews/index.jsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/RecentNews/index.jsx\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pages/Home.jsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pages/Home.jsx\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pages/Home.module.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pages/Home.module.scss\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaScript File\" />\r\n        <option value=\"SCSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Merge.Settings\">\r\n    <option name=\"BRANCH\" value=\"master\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2bgMBCrtS362OdKycOeRRO9Gd2h\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"git-widget-placeholder\": \"slav1k\",\r\n    \"last_opened_file_path\": \"C:/Users/botoe/WebstormProjects/hltv-concept/src/assets/fonts\",\r\n    \"list.type.of.created.stylesheet\": \"SCSS\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_interpreter_path\": \"node\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"npm.npm start.executor\": \"Run\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\botoe\\WebstormProjects\\hltv-concept\\src\\assets\\fonts\" />\r\n      <recent name=\"$PROJECT_DIR$/src/assets/images/navbar\" />\r\n      <recent name=\"$PROJECT_DIR$/src/assets/images\" />\r\n      <recent name=\"$PROJECT_DIR$/src/assets/fonts\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"$PROJECT_DIR$/src\" />\r\n      <recent name=\"$PROJECT_DIR$/src/assets/fonts\" />\r\n      <recent name=\"$PROJECT_DIR$/src/components/News\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"npm.npm start\">\r\n    <configuration name=\"Debug Application\" type=\"JavascriptDebugType\" uri=\"http://localhost:3000\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"npm start\" type=\"js.build_tools.npm\">\r\n      <package-json value=\"$PROJECT_DIR$/package.json\" />\r\n      <command value=\"run\" />\r\n      <scripts>\r\n        <script value=\"start\" />\r\n      </scripts>\r\n      <node-interpreter value=\"project\" />\r\n      <envs />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"396bbc06-5640-4d6b-bf2a-4ffcbd986971\" name=\"Changes\" comment=\"\" />\r\n      <created>1706632130835</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1706632130835</updated>\r\n      <workItem from=\"1706632131972\" duration=\"1590000\" />\r\n      <workItem from=\"1706694891766\" duration=\"6733000\" />\r\n      <workItem from=\"1706816383733\" duration=\"7245000\" />\r\n      <workItem from=\"1708156904831\" duration=\"20000\" />\r\n      <workItem from=\"1708157318484\" duration=\"824000\" />\r\n      <workItem from=\"1708246558231\" duration=\"1560000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Init commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706695730239</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706695730239</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Init commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706695764365</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706695764365</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Added Hltv service and hook useFetching\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1707210787768</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1707210787768</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Init commit\" />\r\n    <MESSAGE value=\"Added Hltv service and hook useFetching\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Added Hltv service and hook useFetching\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 5bf55337b2a4261a31c558da8a84015866bca368)
+-+++ b/.idea/workspace.xml	(date 1709142200016)
+-@@ -51,24 +51,24 @@
+-     <option name="hideEmptyMiddlePackages" value="true" />
+-     <option name="showLibraryContents" value="true" />
+-   </component>
+--  <component name="PropertiesComponent"><![CDATA[{
+--  "keyToString": {
+--    "RunOnceActivity.OpenProjectViewOnStart": "true",
+--    "RunOnceActivity.ShowReadmeOnStart": "true",
+--    "WebServerToolWindowFactoryState": "false",
+--    "git-widget-placeholder": "slav1k",
+--    "last_opened_file_path": "C:/Users/botoe/WebstormProjects/hltv-concept/src/assets/fonts",
+--    "list.type.of.created.stylesheet": "SCSS",
+--    "node.js.detected.package.eslint": "true",
+--    "node.js.detected.package.tslint": "true",
+--    "node.js.selected.package.eslint": "(autodetect)",
+--    "node.js.selected.package.tslint": "(autodetect)",
+--    "nodejs_interpreter_path": "node",
+--    "nodejs_package_manager_path": "npm",
+--    "npm.npm start.executor": "Run",
+--    "vue.rearranger.settings.migration": "true"
+-+  <component name="PropertiesComponent">{
+-+  &quot;keyToString&quot;: {
+-+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+-+    &quot;git-widget-placeholder&quot;: &quot;slav1k&quot;,
+-+    &quot;last_opened_file_path&quot;: &quot;C:/Users/botoe/WebstormProjects/hltv-concept/src/assets/fonts&quot;,
+-+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+-+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+-+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-+    &quot;npm.npm start.executor&quot;: &quot;Run&quot;,
+-+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+-   }
+--}]]></component>
+-+}</component>
+-   <component name="RecentsManager">
+-     <key name="CopyFile.RECENT_KEYS">
+-       <recent name="C:\Users\botoe\WebstormProjects\hltv-concept\src\assets\fonts" />
+-Index: src/components/Navbar/Navbar.module.scss
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>.container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  width: 20%;\r\n  font-family: Inter-Medium;\r\n  font-size: 1.1rem;\r\n  color: #a0a0a0;\r\n  padding-left: 60px;\r\n  margin-top: 25px;\r\n  .item {\r\n    display: flex;\r\n    margin-bottom: 2rem;\r\n    align-items: center;\r\n    cursor: pointer;\r\n    transition: .7s;\r\n\r\n    &:hover {\r\n      color: #1446c6;\r\n      transition: .7s;\r\n      .img {\r\n        path{\r\n          transition: .7s;\r\n          fill: #1446c6\r\n        }\r\n      }\r\n    }\r\n\r\n    .img {\r\n      margin-right: 1rem;\r\n      height: 2rem;\r\n      width: 2rem;\r\n      path{\r\n        transition: .7s;\r\n      }\r\n    }\r\n  }\r\n}
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/components/Navbar/Navbar.module.scss b/src/components/Navbar/Navbar.module.scss
+---- a/src/components/Navbar/Navbar.module.scss	(revision 5bf55337b2a4261a31c558da8a84015866bca368)
+-+++ b/src/components/Navbar/Navbar.module.scss	(date 1709115822123)
+-@@ -1,37 +1,37 @@
+- .container {
+--  display: flex;
+--  flex-direction: column;
+--  width: 20%;
+--  font-family: Inter-Medium;
+--  font-size: 1.1rem;
+--  color: #a0a0a0;
+--  padding-left: 60px;
+--  margin-top: 25px;
+--  .item {
+--    display: flex;
+--    margin-bottom: 2rem;
+--    align-items: center;
+--    cursor: pointer;
+--    transition: .7s;
+-+    display: flex;
+-+    flex-direction: column;
+-+    width: 20%;
+-+    font-family: Inter-Medium;
+-+    font-size: 1.1rem;
+-+    color: #a0a0a0;
+-+    padding-left: 60px;
+-+    margin-top: 25px;
+-+    .item {
+-+        display: flex;
+-+        margin-bottom: 2rem;
+-+        align-items: center;
+-+        cursor: pointer;
+-+        transition: 0.7s;
+- 
+--    &:hover {
+--      color: #1446c6;
+--      transition: .7s;
+--      .img {
+--        path{
+--          transition: .7s;
+--          fill: #1446c6
+--        }
+--      }
+--    }
+-+        &:hover {
+-+            color: #1446c6;
+-+            transition: 0.7s;
+-+            .img {
+-+                path {
+-+                    transition: 0.7s;
+-+                    fill: #1446c6;
+-+                }
+-+            }
+-+        }
+- 
+--    .img {
+--      margin-right: 1rem;
+--      height: 2rem;
+--      width: 2rem;
+--      path{
+--        transition: .7s;
+--      }
+-+        .img {
+-+            margin-right: 1rem;
+-+            height: 2rem;
+-+            width: 2rem;
+-+            path {
+-+                transition: 0.7s;
+-+            }
+-+        }
+-     }
+--  }
+--}
+-\ No newline at end of file
+-+}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"396bbc06-5640-4d6b-bf2a-4ffcbd986971\" name=\"Changes\" comment=\"Navbar svg and top teams list\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaScript File\" />\r\n        <option value=\"SCSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Merge.Settings\">\r\n    <option name=\"BRANCH\" value=\"master\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2bgMBCrtS362OdKycOeRRO9Gd2h\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;slav1k&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/botoe/WebstormProjects/hltv-concept/src/assets/fonts&quot;,\r\n    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;npm.npm start.executor&quot;: &quot;Run&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\botoe\\WebstormProjects\\hltv-concept\\src\\assets\\fonts\" />\r\n      <recent name=\"$PROJECT_DIR$/src/assets/images/navbar\" />\r\n      <recent name=\"$PROJECT_DIR$/src/assets/images\" />\r\n      <recent name=\"$PROJECT_DIR$/src/assets/fonts\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"$PROJECT_DIR$/src\" />\r\n      <recent name=\"$PROJECT_DIR$/src/assets/fonts\" />\r\n      <recent name=\"$PROJECT_DIR$/src/components/News\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"npm.npm start\">\r\n    <configuration name=\"Debug Application\" type=\"JavascriptDebugType\" uri=\"http://localhost:3000\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"npm start\" type=\"js.build_tools.npm\">\r\n      <package-json value=\"$PROJECT_DIR$/package.json\" />\r\n      <command value=\"run\" />\r\n      <scripts>\r\n        <script value=\"start\" />\r\n      </scripts>\r\n      <node-interpreter value=\"project\" />\r\n      <envs />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"396bbc06-5640-4d6b-bf2a-4ffcbd986971\" name=\"Changes\" comment=\"\" />\r\n      <created>1706632130835</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1706632130835</updated>\r\n      <workItem from=\"1706632131972\" duration=\"1590000\" />\r\n      <workItem from=\"1706694891766\" duration=\"6733000\" />\r\n      <workItem from=\"1706816383733\" duration=\"7245000\" />\r\n      <workItem from=\"1708156904831\" duration=\"20000\" />\r\n      <workItem from=\"1708157318484\" duration=\"824000\" />\r\n      <workItem from=\"1708246558231\" duration=\"1560000\" />\r\n      <workItem from=\"1708761410238\" duration=\"35000\" />\r\n      <workItem from=\"1709129876676\" duration=\"122000\" />\r\n      <workItem from=\"1709131550281\" duration=\"217000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Init commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706695730239</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706695730239</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Init commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706695764365</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706695764365</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Added Hltv service and hook useFetching\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1707210787768</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1707210787768</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Navbar svg and top teams list\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1708526986905</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1708526986905</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Init commit\" />\r\n    <MESSAGE value=\"Added Hltv service and hook useFetching\" />\r\n    <MESSAGE value=\"Navbar svg and top teams list\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Navbar svg and top teams list\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 926756b263191202b965c18de37b4983b0ae1f15)
++++ b/.idea/workspace.xml	(date 1713443440855)
+@@ -4,7 +4,13 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="396bbc06-5640-4d6b-bf2a-4ffcbd986971" name="Changes" comment="Navbar svg and top teams list" />
++    <list default="true" id="396bbc06-5640-4d6b-bf2a-4ffcbd986971" name="Changes" comment="Navbar svg and top teams list">
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_02_2024__17_25__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_02_2024__17_25__Changes_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_02_2024_11_20__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_02_2024_11_20__Changes_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_02_2024_20_43_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_02_2024_20_43__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -32,6 +38,9 @@
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
++  <component name="ProjectColorInfo"><![CDATA[{
++  "associatedIndex": 3
++}]]></component>
+   <component name="ProjectId" id="2bgMBCrtS362OdKycOeRRO9Gd2h" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+@@ -100,6 +109,7 @@
+       <workItem from="1708761410238" duration="35000" />
+       <workItem from="1709129876676" duration="122000" />
+       <workItem from="1709131550281" duration="217000" />
++      <workItem from="1713443294605" duration="146000" />
+     </task>
+     <task id="LOCAL-00001" summary="Init commit">
+       <option name="closed" value="true" />
