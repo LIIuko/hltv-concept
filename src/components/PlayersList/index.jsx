@@ -1,27 +1,20 @@
-import styles from "./PlayersList.module.scss";
+import React from 'react';
+import styles from './PlayersList.module.scss';
 
-const PlayersList = ({ players, isOpened }) => {
+const PlayersList = ( {players} ) => {
+    console.log(players)
     return (
-        <div className={styles.container}>
-            {players.map((item) => {
-                console.log(item);
-                return isOpened ? (
-                    <div>
-                        <img src={item.image} alt="Player" />
-                        <div className={styles.name}>
-                            <img src={item.country.flag} alt="Flag" />
-                            <h4>{item.nickname}</h4>
-                        </div>
+        <ul className={styles.players__list}>
+            {players?.map(({image, country, nickname}) => (
+                <li key={nickname} className={styles.player__item}>
+                    <img className={styles.player__img} src={image} alt={nickname} />
+                    <div className={styles.player__info}>
+                        <img src={country.flag} alt={country.name}/>
+                        <h4>{nickname}</h4>
                     </div>
-                ) : (
-                    <div>
-                        <div className={styles.name}>
-                            <h4>{item.nickname}</h4>
-                        </div>
-                    </div>
-                );
-            })}
-        </div>
+                </li>
+            ))}
+        </ul>
     );
 };
 

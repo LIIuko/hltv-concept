@@ -1,21 +1,28 @@
-import styles from "./Team.module.scss";
+import React from 'react';
 import PlayersList from "../PlayersList";
-import { useState } from "react";
+import styles from "./Team.module.scss";
 
-const Team = ({ teams }) => {
-    const [isOpened, setIsOpened] = useState(false);
+const Team = ({teams}) => {
     return (
-        <>
-            {teams.map((item, index) => (
-                <div className={styles.container}>
-                    <h2>#{index + 1}</h2>
-                    <img src={item.image} alt="Team logo" />
-                    <h3>{item.team}</h3>
-                    <span>{item.points} points</span>
-                    <PlayersList players={item.players} isOpened={isOpened} />
-                </div>
+        <ul>
+            {teams.map((team, index) => (
+                <li key={team.team} className={styles.team}>
+                    <div className={styles.container}>
+                        <div className={styles.team__info}>
+                            <h2>#{index + 1}</h2>
+                            <div className={styles.name}>
+                                <img src={team.image} alt="Team logo"/>
+                                <h3>{team.team}</h3>
+                                <span>({team.points} points)</span>
+                            </div>
+                        </div>
+                        <div className={styles.players}>
+                            <PlayersList players={team.players}/>
+                        </div>
+                    </div>
+                </li>
             ))}
-        </>
+        </ul>
     );
 };
 

@@ -8,7 +8,7 @@ const HeaderMatches = (props) => {
             <ul>
                 {matches.map(({event, maps, teams}) => (
 
-                    <div className={classes.item__container}>
+                    <div key={event.name} className={classes.item__container}>
                         <li>
                             <div className={classes.title__container}>
                                 <div className={classes.img__title}>

@@ -1,0 +1,52 @@
+.header__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.top__block {
+    display: flex;
+    margin-top: 6vh;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.players__container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.topteams__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    font-size: 20px;
+    font-family: Poppins-Medium;
+    opacity: 0.5;
+}
+.button__container {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    text-decoration: none;
+    button {
+        font-size: 20px;
+        font-family: Poppins-Medium;
+        padding: 0;
+        border: none;
+        background: none;
+        margin-right: 10px;
+        text-decoration: none;
+        cursor: pointer;
+        outline: none;
+        color: inherit;
+        &:hover {
+            color: #1446c6;
+            transition: color 0.7s ease;
+        }
+
+    }
+}
